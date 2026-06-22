@@ -74,7 +74,9 @@ class Header extends React.Component {
                 </Link>
               </li>
               <li>
-                <span onClick={this.logOut}>Logout</span>
+                <span className={styles.logOut} onClick={this.logOut}>
+                  Logout
+                </span>
               </li>
             </ul>
           </div>
@@ -127,11 +129,6 @@ class Header extends React.Component {
         </div>
         <div className={styles.navContainer}>
           <Logo alt='blue_logo' />
-          {/* <img
-            src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`}
-            className={styles.logo}
-            alt='blue_logo'
-          /> */}
           <div className={styles.leftNav}>
             <div className={styles.nav}>
               <ul>

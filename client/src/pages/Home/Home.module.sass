@@ -290,15 +290,50 @@
   @include innerContainer
   background-color: #FAFAFA
 
-
 .whiteContainer
   @include innerContainer
   background-color: white
 
-
 .greenContainer
   @include innerContainer
   background-color: #28D2D0
+
+.readyToStartContainer
+  @include innerContainer
+  padding-left: 40px
+  padding-right: 40px
+  box-sizing: border-box
+
+  .articleToStartWrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 10px
+    max-width: 1140px
+    width: 100%
+    padding: 30px
+    box-sizing: border-box
+    font-family: sans-serif
+    background: linear-gradient(45deg, #43b1f4, #252157)
+    color: white
+    
+    a
+      text-align: center
+      padding: 15px 20px
+      box-sizing: border-box
+      background-color: white
+
+    @media screen and ( max-width: 900px)
+      flex-direction: column
+      a
+        max-width: 570px
+        width: 100%
+
+    i
+      width: 100%
+      height: 100%
+      font-weight: 200
+      color: black
 
 .blueContainer
   @include innerContainer
