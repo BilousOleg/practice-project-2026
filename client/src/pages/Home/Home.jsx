@@ -5,6 +5,7 @@ import Header from '../../components/Header/Header';
 import CONSTANTS from '../../constants';
 import SlideBar from '../../components/SlideBar/SlideBar';
 import Footer from '../../components/Footer/Footer';
+import FirstNamingPlatformList from './FirstNamingPlatformList';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
@@ -60,6 +61,9 @@ const Home = props => {
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
+            </div>
+            <div className={styles.firstNamingPlatformContainer}>
+              <FirstNamingPlatformList />
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
@@ -250,7 +254,6 @@ const Home = props => {
                 DASHBOARD
               </Link>
             </div>
-            {/*  */}
             <div className={styles.readyToStartContainer}>
               <div className={styles.articleToStartWrapper}>
                 <p>
@@ -262,7 +265,6 @@ const Home = props => {
                 </Link>
               </div>
             </div>
-            {/*  */}
             <div className={styles.blueContainer}>
               <h2 className={styles.whiteUnderline}>What our customers say</h2>
               <SlideBar
