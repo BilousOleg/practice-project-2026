@@ -112,11 +112,9 @@ const Home = props => {
                 </div>
               </div>
             </div>
-            {/* ------------------- */}
             <div className={styles.likeANamingAgencyContainer}>
               <LikeANamingAgency />
             </div>
-            {/* ------------------- */}
             <div className={styles.greyContainer}>
               <div className={styles.adv}>
                 <div className={styles.images}>
