@@ -30,6 +30,7 @@ class Header extends React.Component {
 
   renderLoginButtons = () => {
     if (this.props.data) {
+      const { firstName, lastName } = this.props.data;
       return (
         <>
           <div className={styles.userInfo}>
@@ -41,7 +42,7 @@ class Header extends React.Component {
               }
               alt='user'
             />
-            <span>{`Hi, ${this.props.data.displayName}`}</span>
+            <span>{`Hi, ${firstName} ${lastName}`}</span>
             <img
               src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`}
               alt='menu'
