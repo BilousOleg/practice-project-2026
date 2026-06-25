@@ -1,0 +1,84 @@
+.recommendedForYouPage
+  line-height: 1.5
+  h1, h2, h3
+    font-weight: 700
+  
+  .refineSection
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding: 40px 90px
+    background: linear-gradient(90deg, #241e54, #4840cc)
+    @media screen and (max-width: 500px)
+      padding: 20px 30px
+
+    .textSection
+
+      h1
+        margin-bottom: 0.5rem
+        font-size: 2.25rem
+        letter-spacing: -0.5px
+        color: #ffffff
+        @media screen and (max-width: 500px)
+          font-size: 1.5rem
+
+      p
+        color: rgba(255, 255, 255, 0.75)
+
+    .inputPart
+      flex: 1
+      max-width: 480px
+      min-width: 280px
+
+  .popularDomainsSection
+    max-width: 1480px
+    margin: 0 auto
+    padding: 2rem 1rem 
+
+    .popularDomainsHeading
+      font-size: 1.25rem
+
+    .popularDomainsText
+      margin: 0.25rem 0 1.25rem 2.125rem
+      font-size: 13px
+      color: #64748b
+    
+    .popularDomainsList
+      display: grid
+      grid-template-columns: repeat(auto-fill, minmax(275px, 1fr))
+      gap: 1.125rem
+      max-width: 1458px
+      width: 100%
+      @media screen and (max-width: 620px)
+        justify-items: center
+  
+  .moreOptionsSection
+    padding: 2.5rem 0
+    background: linear-gradient(135deg, #1e1b4b, #312e81)
+    
+    h2
+      margin-bottom: 0.5rem
+      font-size: 1.5rem
+      color: #ffffff
+      
+    
+    p
+      font-size: 0.875rem
+      color: rgba(255, 255, 255, 0.7)
+
+    .container
+      padding: 0 0.75rem
+      margin: 0 3.43% 
+
+      .moreOptionsInfo
+        margin-bottom: 2rem
+        text-align: center
+    
+    .moreOptionsList
+      display: flex
+      gap: 1.5rem
+      max-width: 900px
+      margin: 0 auto
+      @media screen and (max-width: 600px)
+        flex-direction: column

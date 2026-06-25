@@ -1,0 +1,30 @@
+.refinaryForm
+  display: flex
+  font-size: 0.9375rem
+  border: 1px solid rgba(255, 255, 255, 0.15)
+  border-radius: 0.75rem
+  overflow: hidden
+  @media screen and (max-width: 500px)
+    flex-direction: column
+  @media screen and (max-width: 360px)
+    width: 75%
+
+  &:focus-within
+    box-shadow: 0 0 8px #4F46E5
+
+  .refinaryInput
+    flex: 1
+    padding: 1.125rem
+    border: none
+    background-color: #5a54c7
+    color: #ffffff
+
+    &::placeholder
+      color: rgba(255, 255, 255, 0.75)
+  
+  .submitBtn
+    padding: 1.125rem
+    font-weight: 700
+    border: none
+    background: linear-gradient(135deg, #f59e0b, #F97316)
+    color: white

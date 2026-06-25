@@ -15,10 +15,11 @@ import ContestPage from './pages/ContestPage/ContestPage';
 import UserProfile from './pages/UserProfile/UserProfile';
 import 'react-toastify/dist/ReactToastify.css';
 import ContestCreationPage from './pages/ContestCreation/ContestCreationPage';
+import Pricing from './pages/Pricing/Pricing';
+import RecommendedForYou from './pages/RecommendedForYou/RecommendedForYou';
 import CONSTANTS from './constants';
 import browserHistory from './browserHistory';
 import ChatContainer from './components/Chat/ChatComponents/ChatContainer/ChatContainer';
-import Pricing from './pages/Pricing/Pricing';
 
 class App extends Component {
   render () {
@@ -38,6 +39,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/pricing' component={Pricing} />
+          <Route path='/recommended-for-you' component={RecommendedForYou} />
           <Route
             exact
             path='/login'

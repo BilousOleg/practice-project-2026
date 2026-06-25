@@ -8,6 +8,7 @@ function RegistrationFooter () {
       <div className={styles.articlesMainContainer}>
         {registrationFooterData.map((c, index, array) => (
           <RegistrationFooterColumn
+            key={index}
             columnData={c}
             isLast={index === array.length - 1}
           />

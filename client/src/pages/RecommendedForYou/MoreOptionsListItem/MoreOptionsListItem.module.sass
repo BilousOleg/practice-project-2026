@@ -1,0 +1,42 @@
+.moreOptionsListItem
+  display: flex
+  flex-direction: column
+  align-items: center
+  flex: 1
+  padding: 1.75rem
+  text-align: center
+  background-color: #413e7f
+  border: 1px solid rgba(255, 255, 255, 0.15)
+  border-radius: 1rem
+  transition: background 0.3s ease, transform 0.3s ease
+
+  &:hover
+    background: rgba(255, 255, 255, 0.15)
+    transform: translateY(-4px)
+
+  .imageWrapper
+    margin-bottom: 1rem
+
+    img
+      width: 48px
+      height: 48px
+      vertical-align: middle
+      filter: brightness(0) invert(1)
+  
+  h3
+    margin-bottom: 0.5rem
+    font-size: 1.125rem
+    color: #ffffff
+
+  p
+    margin-bottom: 1.25rem
+
+  .moreOptionsLink
+    padding: 0.75rem 1.5rem
+    background: linear-gradient(135deg, #f59e0b, #F97316)
+    border-radius: 0.5rem
+    color: #ffffff
+    transition: transform 0.35s ease
+
+    &:hover
+      transform: scale(1.03)

@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
-import styles from './Header.module.sass';
-import CONSTANTS from '../../constants';
+import Logo from '../Logo';
 import { clearUserStore } from '../../store/slices/userSlice';
 import { getUser } from '../../store/slices/userSlice';
-import Logo from '../Logo';
+import styles from './Header.module.sass';
+import CONSTANTS from '../../constants';
 
 const {
   COMPANY_CONTACTS: { TEL_NUMBER },
@@ -237,6 +237,9 @@ class Header extends React.Component {
                     </li>
                     <li>
                       <a href='http://www.google.com'>VISUAL NAME SEARCH</a>
+                    </li>
+                    <li>
+                      <Link to='/recommended-for-you'>RECOMMENDED FOR YOU</Link>
                     </li>
                     <li className={styles.last}>
                       <a href='http://www.google.com'>SELL YOUR DOMAINS</a>

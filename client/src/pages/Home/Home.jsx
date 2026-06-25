@@ -267,7 +267,7 @@ const Home = props => {
                   submissions instantly.
                 </p>
                 <Link to='/startContest'>
-                  <i class='far fa-lightbulb'> Start A Contest</i>
+                  <i className='far fa-lightbulb'> Start A Contest</i>
                 </Link>
               </div>
             </div>

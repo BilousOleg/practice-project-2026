@@ -1,0 +1,16 @@
+[
+  {
+    "imageSrc": "mn-icon1.png",
+    "title": "Browse All Names",
+    "body": "Explore our curated collection of premium brand names for sale with a matching URL.",
+    "buttonText": "View All Names",
+    "path": "/"
+  },
+  {
+    "imageSrc": "mn-icon2.png",
+    "title": "Launch A Contest",
+    "body": "Get custom name ideas from hundreds of naming experts in real time.",
+    "buttonText": "See How It Works",
+    "path": "/startContest"
+  }
+]

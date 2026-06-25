@@ -5,8 +5,12 @@ import styles from './RegistrationFooterColumn.module.sass';
 function RegistrationFooterColumn ({ columnData, isLast }) {
   return (
     <div className={styles.ColumnContainer}>
-      {columnData.map(c => (
-        <RegistrationFooterArticle question={c.question} answer={c.answer} />
+      {columnData.map((c, index) => (
+        <RegistrationFooterArticle
+          key={index}
+          question={c.question}
+          answer={c.answer}
+        />
       ))}
       {isLast && <MoreQuestionsArticle />}
     </div>

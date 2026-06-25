@@ -1,0 +1,102 @@
+[
+  {
+    "imageSrc": "image_1.jpg",
+    "name": "Test.com",
+    "price": "$4000000"
+  },
+  {
+    "imageSrc": "image_2.jpg",
+    "name": "Document.co",
+    "price": "$348895"
+  },
+  {
+    "imageSrc": "image_3.jpg",
+    "name": "Wozot.com",
+    "price": "$1999"
+  },
+  {
+    "imageSrc": "image_4.jpg",
+    "name": "Ticket.com",
+    "price": "Make Offer"
+  },
+  {
+    "imageSrc": "image_5.jpg",
+    "name": "Excel.com",
+    "price": "$2500000"
+  },
+  {
+    "imageSrc": "image_6.jpg",
+    "name": "ButtonData.com",
+    "price": "$2849"
+  },
+  {
+    "imageSrc": "image_7.jpg",
+    "name": "Thriverly.com",
+    "price": "$3999"
+  },
+  {
+    "imageSrc": "image_8.jpg",
+    "name": "FAS.com",
+    "price": "$4995000"
+  },
+  {
+    "imageSrc": "image_9.jpg",
+    "name": "Luresome.com",
+    "price": "$3499"
+  },
+  {
+    "imageSrc": "image_10.jpg",
+    "name": "Comic.io",
+    "price": "$223595"
+  },
+  {
+    "imageSrc": "image_11.jpg",
+    "name": "TouchPay.com",
+    "price": "$798845"
+  },
+  {
+    "imageSrc": "image_12.jpg",
+    "name": "Galore.com",
+    "price": "$460000"
+  },
+  {
+    "imageSrc": "image_13.jpg",
+    "name": "Shrink.io",
+    "price": "$74995"
+  },
+  {
+    "imageSrc": "image_14.jpg",
+    "name": "Sample.com",
+    "price": "$1752000"
+  },
+  {
+    "imageSrc": "image_15.jpg",
+    "name": "Recover.io",
+    "price": "$250000"
+  },
+  {
+    "imageSrc": "image_16.jpg",
+    "name": "Oasis.com",
+    "price": "$2500000"
+  },
+  {
+    "imageSrc": "image_17.jpg",
+    "name": "Headshot.io",
+    "price": "$29995"
+  },
+  {
+    "imageSrc": "image_18.jpg",
+    "name": "GratFlix.com",
+    "price": "$10000"
+  },
+  {
+    "imageSrc": "image_19.jpg",
+    "name": "ML.net",
+    "price": "$274999"
+  },
+  {
+    "imageSrc": "image_20.jpg",
+    "name": "Padion.com",
+    "price": "$14399"
+  }
+]

@@ -8,8 +8,9 @@ const { STATIC_IMAGES_PATH } = CONSTANTS;
 function LikeANamingAgencyList () {
   return (
     <ul className={styles.likeANamingAgencyList}>
-      {likeANamingAgencyCards.map(c => (
+      {likeANamingAgencyCards.map((c, index) => (
         <LikeANamingAgencyListItem
+          key={index}
           src={`${STATIC_IMAGES_PATH}like_a_naming_agency/${c.iconSrc}`}
           title={c.title}
           body={c.body}
